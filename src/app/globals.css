@@ -323,7 +323,7 @@ h1,h2,h3,h4,h5,h6 {
 .lnb-bar .lnb-bar-dropdown .cur .val {text-transform: uppercase;font-size: 21px; font-weight: 700;}
 .lnb-bar .lnb-bar-dropdown .cur .icon {}
 .lnb-bar .lnb-bar-dropdown .cur .icon .arrow { border-color: #fff;}
-.lnb-bar .lnb-bar-dropdown .drop {position: absolute; top:100%; left:0; width: 100%; background: #fff; padding: 24px 70px; border:1px solid var(--gray4); color:#424242; display: flex; flex-direction: column; text-transform: uppercase; gap: 5px; opacity: 0; transition: .3s ease;  z-index: 1; pointer-events: none;}
+.lnb-bar .lnb-bar-dropdown .drop {position: absolute; top:100%; left:0; width: 100%; background: #fff; padding: 24px 70px; border:1px solid var(--gray4); color:#424242; display: flex; flex-direction: column; text-transform: uppercase; gap: 5px; opacity: 0; transition: .3s ease;  z-index: 1; pointer-events: none; font-family: var(--ff-primary);}
 .lnb-bar .lnb-bar-dropdown .drop > li {transition: .3s ease;}
 .lnb-bar .lnb-bar-dropdown .drop > li.active {color:var(--primary); font-weight: 700;}
 .lnb-bar .lnb-ls {padding: 0 90px; display: flex; align-items: center; justify-content: center;}
